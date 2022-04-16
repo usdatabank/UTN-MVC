@@ -1,5 +1,5 @@
 <section class="page-section about-heading">
-    <div class="container"><img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/errorcolor404.jpg">
+    <div class="container"><img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/error404.png">
         <div class="about-heading-content">
             <div class="row">
                 <div class="col-lg-10 col-xl-9 mx-auto">
