@@ -6,5 +6,4 @@
 
     #ejecutar el metodo (funcion)
     $control->ctrPlantilla();
-    
 ?>
