@@ -19,13 +19,14 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?r=nosotros">sobre nosotros</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?r=productos">productos</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?r=tienda">tienda</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.php?r=registro">registrarse</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <?php
         if (isset($_GET['r'])) {
-            if ($_GET['r'] == 'inicio' || $_GET['r'] == 'nosotros' || $_GET['r'] == 'productos' || $_GET['r'] == 'tienda') {
+            if ($_GET['r'] == 'inicio' || $_GET['r'] == 'nosotros' || $_GET['r'] == 'productos' || $_GET['r'] == 'tienda' || $_GET['r'] == 'registro') {
                 include($_GET['r'].".php");
             } else {
                 include("error404.php");
