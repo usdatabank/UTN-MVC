@@ -21,4 +21,21 @@
             $stmt = null;
         }    
     }
+    class Desubscribir{
+        static public function eliminaSocio($tabla, $datos) {
+            $stmt = Conexion::conectar()->prepare("DELETE FROM $tabla WHERE email = :email");
+            $stmt->bindParam(":email", $datos["email"], PDO::PARAM_STR);
+
+            if ($stmt->execute()) {
+                # nos devuelve el error si se produce
+                return "OK";
+            }else {
+                print_r(Conexion::conectar()->errorInfo());
+            }
+    
+            #cerramos la conexion a la base de datos
+            $stmt->closeCursor();
+            $stmt = null;
+        }
+    }
 ?>

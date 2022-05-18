@@ -14,8 +14,18 @@
                 $resultado = ModeloFormulario::modRegistro($tabla, $datos);
                 return $resultado;
             }
-            #eliminamos un fan del cafe que desea dejar de recibir notificaciones
-
+        }
+        #elimacion de subscripcion a las novedades
+        static public function EliminaSocio(){
+            #recibimos datos del socio que se dara de baja
+            if(isset($_POST["bteliminar"])) {
+                $tabla = "usuarios";
+                $datos = array(
+                    "email" => $_POST["e_email"]
+                );
+                $resultado = Desubscribir::eliminaSocio($tabla, $datos);
+                return $resultado;
+            }
         }
     }
 ?>
