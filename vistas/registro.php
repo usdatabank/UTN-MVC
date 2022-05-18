@@ -22,7 +22,7 @@
                                 <div class="col-md">
                                     <div class="form-group">
                                         <label for="">Correo Electrónico</label>
-                                        <input class="form-control" name="n_email" type="email" id="email" maxlength="70" placeholder="Ingrese su correo electrónico personal" required><br>
+                                        <input class="form-control" name="n_email" type="email" id="email" maxlength="70" placeholder="Ingrese el correo con el que se registro" required><br>
                                     </div> 
                                 </div>
                             </div>
@@ -30,19 +30,13 @@
                                 <input class="btn btn-primary" type="submit" value=" Recibir Notificaciones " name="btregistra"><br>
                             </div>
                         </form>
-                    <p class="address mb-0"><small><em>Llame en cualquier momento por cualquier consulta</em></small><span><br>(0264) 345-6789</span></p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="page-section cta">
-    <div class="container">
         <div class="row">
             <div class="col-xl-9 mx-auto">
                 <div class="cta-inner text-center rounded">
-                    <h2 class="section-heading mb-5"><span class="section-heading-upper">registrate a nuestro</span><span class="section-heading-lower">fancafe</span></h2>
-                    <p class="address mb-5"><em>Si se encuentra subscripto a las novedades ya, y no quiere recibirlas ingrese su email a continuación</em></p>
+                    <p class="address mb-5"><em>Si se encuentra subscripto a las novedades y ya no quiere recibirlas ingrese su email a continuación para ser eliminado de la lista de socios</em></p>
                         <form method="POST">
                             <div class="row">
                                 <div class="col-md">
