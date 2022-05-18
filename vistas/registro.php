@@ -47,7 +47,7 @@
                                 </div>
                             </div>
                             <div class="form-group">                         
-                                <input class="btn btn-primary" type="submit" value=" Deseo No Recibir Mas Notificaciones " name="bteliminar"><br>
+                                <input class="btn btn-dark" type="submit" value=" Deseo No Recibir Mas Notificaciones " name="bteliminar"><br>
                             </div>
                         </form>
                     <p class="address mb-0"><small><em>Llame en cualquier momento por cualquier consulta</em></small><span><br>(0264) 345-6789</span></p>
