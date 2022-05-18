@@ -22,7 +22,7 @@
                                 <div class="col-md">
                                     <div class="form-group">
                                         <label for="">Correo Electrónico</label>
-                                        <input class="form-control" name="n_email" type="email" id="email" maxlength="70" placeholder="Ingrese el correo con el que se registro" required><br>
+                                        <input class="form-control" name="n_email" type="email" id="email" maxlength="70" placeholder="Ingrese su correo electrónico personal" required><br>
                                     </div> 
                                 </div>
                             </div>
@@ -42,7 +42,7 @@
                                 <div class="col-md">
                                     <div class="form-group">
                                         <label for="">Correo Electrónico</label>
-                                        <input class="form-control" name="e_email" type="email" id="email" maxlength="70" placeholder="Ingrese su correo electrónico personal" required><br>
+                                        <input class="form-control" name="e_email" type="email" id="email" maxlength="70" placeholder="Ingrese el correo con el que se registro" required><br>
                                     </div> 
                                 </div>
                             </div>
