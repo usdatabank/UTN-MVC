@@ -7,6 +7,4 @@
             return $enlace;
         }
     }
-
-    
 ?>
