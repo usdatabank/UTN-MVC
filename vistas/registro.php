@@ -30,7 +30,7 @@
                                 <input class="btn btn-primary" type="submit" value=" Recibir Notificaciones " name="btregistra"><br>
                             </div>
                         </form>
-                    <p class="address mb-0"><small><em>Llame en cualquier momento</em></small><span><br>(0264) 345-6789</span></p>
+                    <p class="address mb-0"><small><em>Llame en cualquier momento por cualquier consulta</em></small><span><br>(0264) 345-6789</span></p>
                 </div>
             </div>
         </div>
